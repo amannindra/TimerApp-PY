@@ -49,8 +49,7 @@ def handle_start_timer():
         if seconds == None:
             seconds = 0
         total_seconds = hours * 3600 + minutes * 60 + seconds
-        print(f"Timer starting for: {hours} hours, {
-              minutes} minutes, {seconds} seconds.")
+        print(f"Timer starting for: {hours} hours, {minutes} minutes, {seconds} seconds.")
         clear_window()
         timer(total_seconds)
     except ValueError:
